@@ -1,0 +1,94 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+input {
+  width: calc(100% - 90px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color:#0f2027;
+}
+
+ ::placeholder{
+  color:#222043;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color:#0f2027;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  gap: 10px;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.todo-item button {
+  background-color: #007bff;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+  color: #0f2027;
+}
+
+.todo-item button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.completed {
+  font-weight: 500;
+  color: #999;
+}
