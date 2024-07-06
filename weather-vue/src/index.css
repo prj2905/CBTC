@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(109.6deg, rgba(119, 44, 232, 0.68) 11.5%, rgb(119, 44, 232) 91.2%);
+  background-attachment: fixed;
+  background-size: cover; 
+  margin: 0; 
+  height: 100vh; 
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.search-bar {
+  border: solid 2px #7F4BC5;
+  border-radius: 10px;
+  background-color: #fefefe;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #626262;
+  font-size: 18px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  border: none;
+  background-color: #7F4BC5;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #9f6de2;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.weather-img {
+  width: 200px;
+  height: 200px;
+}
+
+.temperature {
+  color: #FFDEE9;
+  font-size: 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.location {
+  color: #FFDEE9;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px 0;
+}
+
+.components {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0;
+  gap: 20px;
+}
+
+.humidity {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.humidity p {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #B5FFFC;
+}
+
+.humidity img {
+  width: 50px;
+  height: 50px;
+}
+
+.text p {
+  margin: 0;
+}
